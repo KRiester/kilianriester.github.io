@@ -1,5 +1,5 @@
 // Header
-const header = {
+const header = { 
   homepage: "https://kilianriester.com",
   title: "KR",
 };
