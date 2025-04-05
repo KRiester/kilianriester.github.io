@@ -4,8 +4,7 @@ const portfolio = {
   role: "Executive Assistant to the CCO @ Allianz Group",
   description:
     "Passionate about brand strategy, customer insights, and international mobility. I enjoy solving complex problems with cross-functional teams and thrive in dynamic environments.",
-  resume: "https://kilianriester.myportfolio.com/projects", // You can replace this with a CV PDF later
-  social: {
+    resume: "https://kilianriester.github.io/CV_Kilian_Riester.pdf",  social: {
     linkedin: "https://linkedin.com/in/kilian-riester",
     github: "https://github.com/kilianriester",
     email: "riesterkilian@gmail.com",
