@@ -92,4 +92,8 @@ const about = {
   },
 };
 
-export { portfolio as default, about };
+const contact = {
+  email: "riesterkilian@gmail.com",
+};
+
+export { portfolio as default, about, contact };
