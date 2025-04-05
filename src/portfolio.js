@@ -1,71 +1,82 @@
-const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
-}
-
-const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+const portfolio = {
+  // Personal info
+  name: "Kilian Riester",
+  role: "Executive Assistant to the CCO @ Allianz Group",
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    "Passionate about brand strategy, customer insights, and international mobility. I enjoy solving complex problems with cross-functional teams and thrive in dynamic environments.",
+  resume: "https://kilianriester.myportfolio.com/projects", // You can replace this with a CV PDF later
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: "https://linkedin.com/in/kilian-riester",
+    github: "https://github.com/kilianriester",
+    email: "riesterkilian@gmail.com",
   },
-}
 
-const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
-  {
-    name: 'Project 1',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 2',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-]
+  // Skills
+  skills: [
+    "Strategic Planning",
+    "Customer & Brand Research",
+    "Public Speaking",
+    "Generative AI",
+  ],
 
-const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
-]
+  // Projects
+  projects: [
+    {
+      name: "Hult Consulting Club",
+      description:
+        "As President, I led strategic initiatives and built student-industry partnerships across three global campuses.",
+      stack: ["Leadership", "Event Planning", "Team Building"],
+      sourceCode: "",
+      livePreview: "",
+    },
+    {
+      name: "Facebook & Housing Behavior",
+      description:
+        "Bachelor's thesis exploring how Facebook’s content influenced millennial housing investment patterns.",
+      stack: ["Behavioral Economics", "Qualitative Interviews"],
+      sourceCode: "",
+      livePreview: "",
+    },
+  ],
 
-const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
-}
+  // Education
+  education: [
+    {
+      institution: "Hult International Business School",
+      degree: "MSc in International Business",
+      period: "2022 – 2023",
+    },
+    {
+      institution: "University of Graz",
+      degree: "BSc in Economics",
+      period: "2018 – 2022",
+    },
+  ],
 
-export { header, about, projects, skills, contact }
+  // Experience
+  experience: [
+    {
+      company: "Allianz",
+      position: "Executive Assistant to the CCO",
+      period: "2023 – Present",
+      description:
+        "Supporting the board in brand, customer experience, and data strategy across 70+ markets. Acting as a Chief-of-Staff–like function.",
+    },
+    {
+      company: "Kilian Riester Consulting e.U.",
+      position: "Founder",
+      period: "2021 – 2023",
+      description:
+        "Consulting projects across Austria and Germany with a focus on brand, communication, and transformation.",
+    },
+    {
+      company: "VMCON OG",
+      position: "Consultant",
+      period: "2019 – 2022",
+      description:
+        "Strategy and digital transformation consulting for Austrian SMEs.",
+    },
+  ],
+};
+
+export default portfolio;
