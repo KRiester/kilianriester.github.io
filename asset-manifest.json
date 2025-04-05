@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/kilianriester.github.io/static/css/main.55ddbabc.chunk.css",
+    "main.js": "/kilianriester.github.io/static/js/main.eedcc33a.chunk.js",
+    "main.js.map": "/kilianriester.github.io/static/js/main.eedcc33a.chunk.js.map",
+    "runtime-main.js": "/kilianriester.github.io/static/js/runtime-main.9c914930.js",
+    "runtime-main.js.map": "/kilianriester.github.io/static/js/runtime-main.9c914930.js.map",
+    "static/js/2.fae51535.chunk.js": "/kilianriester.github.io/static/js/2.fae51535.chunk.js",
+    "static/js/2.fae51535.chunk.js.map": "/kilianriester.github.io/static/js/2.fae51535.chunk.js.map",
+    "index.html": "/kilianriester.github.io/index.html",
+    "static/css/main.55ddbabc.chunk.css.map": "/kilianriester.github.io/static/css/main.55ddbabc.chunk.css.map",
+    "static/js/2.fae51535.chunk.js.LICENSE.txt": "/kilianriester.github.io/static/js/2.fae51535.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c914930.js",
+    "static/js/2.fae51535.chunk.js",
+    "static/css/main.55ddbabc.chunk.css",
+    "static/js/main.eedcc33a.chunk.js"
+  ]
+}
