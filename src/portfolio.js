@@ -4,7 +4,8 @@ const portfolio = {
   role: "Executive Assistant to the CCO @ Allianz Group",
   description:
     "Passionate about brand strategy, customer insights, and international mobility. I enjoy solving complex problems with cross-functional teams and thrive in dynamic environments.",
-    resume: "https://kilianriester.github.io/CV_Kilian_Riester.pdf",  social: {
+  resume: "https://kilianriester.github.io/CV_Kilian_Riester.pdf",
+  social: {
     linkedin: "https://linkedin.com/in/kilian-riester",
     github: "https://github.com/kilianriester",
     email: "riesterkilian@gmail.com",
@@ -78,4 +79,17 @@ const portfolio = {
   ],
 };
 
-export default portfolio;
+const about = {
+  name: "Kilian Riester",
+  role: "Executive Assistant to the CCO @ Allianz Group",
+  description:
+    "Driven by curiosity and strategic thinking. Passionate about brand, customer data, and working internationally.",
+  resume: "https://kilianriester.github.io/CV_Kilian_Riester.pdf",
+  social: {
+    linkedin: "https://linkedin.com/in/kilian-riester",
+    github: "https://github.com/KRiester",
+    email: "riesterkilian@gmail.com",
+  },
+};
+
+export { portfolio as default, about };
