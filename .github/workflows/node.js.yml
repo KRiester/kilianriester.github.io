@@ -1,7 +1,4 @@
- - name: Build
-        run: npm run build
-        env:
-          NODE_OPTIONS: --openssl-legacy-provider
+name: Build and Deploy
 
 on:
   push:
@@ -11,6 +8,7 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
@@ -25,8 +23,10 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          NODE_OPTIONS: --openssl-legacy-provider
 
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
